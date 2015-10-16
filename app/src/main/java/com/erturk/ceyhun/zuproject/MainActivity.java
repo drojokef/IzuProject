@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         ParseObject testObject = new ParseObject("deneme2");
         testObject.put("foo", "bar");
         testObject.saveInBackground();
+        //selammmm
     }
 
 
