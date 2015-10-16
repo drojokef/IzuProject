@@ -17,8 +17,10 @@ public class MainActivity extends AppCompatActivity {
         ParseObject testObject = new ParseObject("deneme2");
         testObject.put("foo", "bar");
         testObject.put("foo", "bar2");
+        testObject.put("foo", "bar3");
         testObject.saveInBackground();
         //selammmm
+        //selam2
     }
 
 
